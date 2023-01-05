@@ -1,0 +1,37 @@
+/* reset css- để sử dụng trên nhiều trình duyệt mà k lỗi*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100vh; /*100% chiều cao của màn hình*/
+}
+
+.table {
+    margin: 50px auto;
+    background-color: white;
+    width: 85%;
+    height: 90%;
+    border-radius: 13px;
+}
+
+.content {
+    margin: 25px auto;
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    padding-top: 25px;
+    border-top-left-radius: 5px;
+}
+
+th, td {
+    border-bottom: 1px solid;
+}
+
+.one {
+    background-color: #DDDDDD;
+}
