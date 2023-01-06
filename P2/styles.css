@@ -37,3 +37,8 @@ th, td {
 .one {
     background-color: #DDDDDD;
 }
+
+tr:hover {
+    opacity: 0.8;
+    background-color: aqua;
+}

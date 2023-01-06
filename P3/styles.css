@@ -1,0 +1,89 @@
+/* reset css- để sử dụng trên nhiều trình duyệt mà k lỗi*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100vh; /*100% chiều cao của màn hình*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table {
+    margin: 50px auto;
+    background-color: white;
+    width: 85%;
+    height: 90%;
+    border-radius: 13px;
+}
+
+.content {
+    margin: 25px auto;
+    text-align: center;
+    width: 95%;
+    height: 85%;
+    border-radius: 5px;
+    padding-top: 25px;
+    border-top-left-radius: 5px;
+}
+
+th, td {
+    border-bottom: 1px solid;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.one {
+    background-color: #DDDDDD;
+}
+
+tr:hover {
+    opacity: 0.6;
+    background-color: antiquewhite;
+}
+.next_page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    align-items: center;
+}
+.action button {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.action button:hover{
+    opacity: 0.6;
+    background-color: bisque;
+}
+
+.action .list {
+    border-radius: 5px;
+    width: 65px;
+    height: 35px;
+    border: 1px solid grey;
+}
+
+.icon_one {
+    font-size: 20px;
+    padding-left: 55px;
+    color: rgb(34, 102, 205);
+}
+
+.icon_two {
+    font-size: 25px;
+    padding-right: 55px;
+    color: rgb(34, 102, 205);
+}
+p {
+    padding-right: 15px;
+}
